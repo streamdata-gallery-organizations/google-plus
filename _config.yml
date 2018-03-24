@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: google.plus.api.gallery.streamdata.io
+title: Streamdata Gallery Google Plus
+url: google-plus.streamdata.gallery
 tag: Google Plus
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: google-plus
 github_branch: master
 collections:
