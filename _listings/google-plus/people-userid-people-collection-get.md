@@ -12,9 +12,9 @@ consumes:
 paths:
   /people/{userId}/people/{collection}:
     get:
-      summary: Get Collection of People
+      summary: Get People In Collection
       description: List all of the people in the specified collection
-      operationId: plus.people.list
+      operationId: plusDomains.people.list
       parameters:
       - in: path
         name: collection
