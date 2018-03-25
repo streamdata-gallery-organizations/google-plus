@@ -12,10 +12,10 @@ consumes:
 paths:
   /people/{userId}/activities/{collection}:
     get:
-      summary: Get Colelction Activities
+      summary: Get Activities
       description: List all of the activities in the specified collection for a particular
         user
-      operationId: plus.activities.list
+      operationId: plusDomains.activities.list
       parameters:
       - in: path
         name: collection
