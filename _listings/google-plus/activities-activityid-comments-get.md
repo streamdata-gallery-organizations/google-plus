@@ -12,9 +12,9 @@ consumes:
 paths:
   /activities/{activityId}/comments:
     get:
-      summary: Get Activity Comments
+      summary: Get Activity Commenets
       description: List all of the comments for an activity
-      operationId: plus.comments.list
+      operationId: plusDomains.comments.list
       parameters:
       - in: path
         name: activityId
@@ -34,7 +34,7 @@ paths:
         200:
           description: OK
       tags:
-      - comment
+      - activity
 definitions: []
 x-collection-name: Google Plus
 x-streamrank:
