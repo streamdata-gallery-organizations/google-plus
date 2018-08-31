@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Google Plus",
+	"description": "This is a repository of google plus APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/google-plus.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://google-plus.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Google Plus",
+			"x-api-slug": "google-plus",
+			"description": "Create a more engaging experience and connect with more users by integrating social into your web site. Show profile information, and relevant content and connections from circles. Let visitors recommend and share your content, and prompt friends to take specific actions on your site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png",
+			"humanURL": "https://plus.google.com/",
+			"baseURL": "https:///",
+			"tags": "Google Plus",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-plus/master/_listings/google-plus/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Google Plus",
+	"include": [
+		{
+			"name": "Google Plus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-plus/master/_listings/google-plus/apis.yaml"
+		}
+	]
+}
